@@ -1,8 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import Footer from "../components/Footer/Footer";
+
 import TestYourIQ from "../components/TestYourIQ/TestYourIQ";
-import Navbar2 from "./../components/navbar/Navbar2";
 
 const Career = () => {
   const [theme, setTheme] = useState(
@@ -57,7 +56,6 @@ const Career = () => {
       transition={{ duration: 0.5 }}
       className={`min-h-screen ${theme === "dark" ? "dark" : ""}`}
     >
-      <Navbar2 />
       <div className="container mx-auto px-4 py-12">
         <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md dark:bg-gray-800">
           <motion.h1
@@ -192,7 +190,6 @@ const Career = () => {
           </motion.div>
         )}
       </AnimatePresence>
-      <Footer />
     </motion.div>
   );
 };

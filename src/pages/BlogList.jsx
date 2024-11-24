@@ -1,7 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
@@ -19,7 +17,6 @@ const BlogList = () => {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <Navbar2 />
       <div className="container mx-auto flex-grow px-5 py-10">
         <h1 className="heading">Our Latest Blogs</h1>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -50,7 +47,6 @@ const BlogList = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

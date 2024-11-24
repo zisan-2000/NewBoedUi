@@ -1,12 +1,9 @@
 // AppDev.jsx
 // import React from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 
 const AppDev = () => {
   return (
     <div className="pt-24">
-      <Navbar2 />
       <div className="mx-auto mb-16 mt-8 max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
         <div className="transform rounded-lg bg-gray-100 p-8 shadow-md transition duration-300 hover:scale-105">
           <h2 className="mb-4 text-2xl font-bold text-gray-800 lg:text-3xl">
@@ -47,7 +44,6 @@ const AppDev = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

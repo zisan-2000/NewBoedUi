@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 // import React from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "./../components/navbar/Navbar2";
 
 const Privacy = () => {
   return (
@@ -12,7 +10,6 @@ const Privacy = () => {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-gray-100 pt-24 dark:bg-slate-950"
     >
-      <Navbar2 />
       <div className="container mx-auto py-12 dark:bg-slate-950 ">
         <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md dark:bg-slate-800 ">
           <h1 className="mb-4 text-3xl font-bold text-gray-800 dark:text-purple-500">
@@ -65,7 +62,6 @@ const Privacy = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </motion.div>
   );
 };

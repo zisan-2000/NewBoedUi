@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 
 // Importing the icons
 import icon1 from "./../assets/icon1.png"; // Replace with actual icon path
@@ -16,7 +14,7 @@ import icon7 from "./../assets/icon7.png"; // Replace with actual icon path
 import icon8 from "./../assets/icon8.png"; // Replace with actual icon path
 import icon9 from "./../assets/icon9.png"; // Replace with actual icon path
 
-const Cloud = () => {
+const OurService = () => {
   const [visibleText, setVisibleText] = useState({});
 
   const toggleTextVisibility = (index) => {
@@ -91,7 +89,6 @@ const Cloud = () => {
 
   return (
     <div className="pt-24">
-      <Navbar2 />
       <div className="container mx-auto mb-16 mt-8">
         <div className="grid gap-8 text-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {cards.map((card, index) => (
@@ -123,9 +120,8 @@ const Cloud = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
 
-export default Cloud;
+export default OurService;

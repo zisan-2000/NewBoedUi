@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
 import Navbar2 from "../components/navbar/Navbar2";
 
 // Importing team member images correctly
@@ -128,7 +127,6 @@ const TeamListStatic = () => {
           )}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

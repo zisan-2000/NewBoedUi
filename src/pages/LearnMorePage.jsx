@@ -1,13 +1,8 @@
 // src/pages/LearnMorePage.jsx
 
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
-
 const LearnMorePage = () => {
   return (
     <div>
-      <Navbar2 />
-
       <main className="flex min-h-screen items-center justify-center bg-gradient-to-r from-violet-950 to-violet-900">
         <section className="container mx-auto text-center text-white">
           <h1 className="mb-4 text-4xl font-bold">
@@ -27,7 +22,6 @@ const LearnMorePage = () => {
           </p>
         </section>
       </main>
-      <Footer />
     </div>
   );
 };

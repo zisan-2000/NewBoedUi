@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "./../components/navbar/Navbar2";
 
 // Import service images
 import uiuxImage from "../assets/mobiledev.jpg";
@@ -16,7 +14,6 @@ const Services = () => {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-gray-100 pt-24 dark:bg-slate-800"
     >
-      <Navbar2 />
       <div className="container mx-auto min-h-screen py-12 ">
         <h1 className="heading">Our Services</h1>
         <div className="grid grid-cols-1 gap-8  sm:grid-cols-2 lg:grid-cols-3 ">
@@ -78,7 +75,6 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
-      <Footer />
     </motion.div>
   );
 };

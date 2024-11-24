@@ -39,9 +39,9 @@ const Hero = () => {
               with state-of-the-art software that enhances efficiency,
               productivity, and user experience.
             </p>
-            <div className="mt-4 space-x-4">
+            <div className="mt-4  space-x-4">
               <Link to="/get-started">
-                <button className="rounded-md border-2 border-blue-500 bg-blue-500/50 px-8 py-3 text-2xl text-white shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-700 hover:bg-blue-700">
+                <button className="mb-2 rounded-md border-2 border-blue-500 bg-blue-500/50 px-8 py-3 text-2xl text-white shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-700 hover:bg-blue-700">
                   Get Started
                 </button>
               </Link>

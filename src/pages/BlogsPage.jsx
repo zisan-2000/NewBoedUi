@@ -1,7 +1,6 @@
 // src/pages/BlogsPage.jsx
 import React from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
+
 import blog1 from "./../assets/blog1.jpg";
 import blog2 from "./../assets/blog2.jpg";
 import blog3 from "./../assets/blog3.jpg";
@@ -35,14 +34,12 @@ const blogsData = [
 const BlogsPage = () => {
   return (
     <div className="flex min-h-screen flex-col pt-24">
-      <Navbar2 />
       <main className="flex-grow bg-gray-100 py-10 dark:bg-slate-800">
         <div className="container mx-auto">
           <h1 className="heading">Blogs</h1>
           <BlogsList blogs={blogsData} />
         </div>
       </main>
-      <Footer />
     </div>
   );
 };

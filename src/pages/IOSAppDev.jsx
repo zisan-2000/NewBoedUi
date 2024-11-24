@@ -1,10 +1,6 @@
-import Navbar2 from "../components/navbar/Navbar2";
-import Footer from "./../components/Footer/Footer";
-
 const IOSAppDev = () => {
   return (
     <div className="pt-24">
-      <Navbar2 />
       <div className="mx-auto mb-16 mt-8 max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl ">
         <div className="transform rounded-lg bg-gray-100 p-8 shadow-md transition duration-300 hover:scale-105 dark:bg-slate-800">
           <h2 className="mb-4 text-2xl font-bold text-gray-800 dark:text-purple-500 lg:text-3xl">
@@ -45,7 +41,6 @@ const IOSAppDev = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

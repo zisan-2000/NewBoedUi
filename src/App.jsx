@@ -1,3 +1,4 @@
+// Updated App.jsx
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -11,7 +12,6 @@ import AboutUs from "./pages/AboutUs";
 import AppDev from "./pages/AppDev";
 import BackendTechnologiesStatic from "./pages/BackendTechnologiesStatic";
 import BlogsPage from "./pages/BlogsPage";
-import Cloud from "./pages/Cloud";
 import ContactForm from "./pages/ContactForm";
 import Error from "./pages/Error";
 import FrontendTechnologiesStatic from "./pages/FrontendTechnologiesStatic";
@@ -27,6 +27,8 @@ import Services from "./pages/Services";
 import TeamListStatic from "./pages/TeamListStatic";
 import TechnologyList from "./pages/TechnologyList";
 import WebDev from "./pages/WebDev";
+import Layout from "./layouts/Layout";
+import OurService from "./pages/OurService";
 
 function App() {
   useEffect(() => {
@@ -38,9 +40,10 @@ function App() {
     });
     AOS.refresh();
   }, []);
+
   return (
     <BrowserRouter>
-      <div className="dark:bg-slate-900 dark:text-white">
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
@@ -50,7 +53,7 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/career" element={<JobPostListStatic />} />
           <Route path="/app" element={<AppDev />} />
-          <Route path="/cloud" element={<Cloud />} />
+          <Route path="/OurService" element={<OurService />} />
           <Route path="/ios" element={<IOSAppDev />} />
           <Route path="/mobile" element={<MobileApp />} />
           <Route path="/web" element={<WebDev />} />
@@ -68,7 +71,7 @@ function App() {
           <Route path="/test-your-iq" element={<TestYourIQ />} />
           <Route path="/blogs" element={<BlogsPage />} />
         </Routes>
-      </div>
+      </Layout>
     </BrowserRouter>
   );
 }

@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 // import React from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "./../components/navbar/Navbar2";
 
 const Contact = () => {
   return (
@@ -12,7 +10,6 @@ const Contact = () => {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-gray-900 text-white"
     >
-      <Navbar2 />
       <div className="container mx-auto py-12">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           {/* Contact Form */}
@@ -115,7 +112,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </motion.div>
   );
 };

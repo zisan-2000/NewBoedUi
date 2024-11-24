@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
 import talatImage from "./../assets/talat.webp";
-import Navbar2 from "./../components/navbar/Navbar2";
 
 const AboutUs = () => {
   // State for controlling animation
@@ -14,7 +12,7 @@ const AboutUs = () => {
 
   return (
     <div>
-      <Navbar2 />
+      {/* <Navbar2 /> */}
 
       <div className="pt-24">
         <div className="relative z-[1] bg-blue-500/50 bg-[url('/pexels-felixmittermeier-1205301.jpg')] bg-cover bg-center bg-no-repeat py-8 text-center after:absolute after:inset-0 after:bg-gradient-to-t after:from-black after:to-blue-500/60">
@@ -134,8 +132,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

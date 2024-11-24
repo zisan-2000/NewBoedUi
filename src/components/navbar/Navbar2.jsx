@@ -622,7 +622,7 @@ const Navbar2 = () => {
                         </li>
                         <li className="whitespace-nowrap rounded-lg p-2 hover:bg-white/20">
                           <NavLink
-                            to="/Cloud"
+                            to="/OurService"
                             className={({ isActive }) =>
                               `flex items-center gap-2 ${
                                 isActive ? "text-amber-500" : "text-white/80"
@@ -714,7 +714,7 @@ const Navbar2 = () => {
                               <ul className="flex flex-col gap-1">
                                 <li className="mb-2 cursor-pointer hover:text-primary">
                                   <NavLink
-                                    to="/Cloud"
+                                    to="/OurService"
                                     className={({ isActive }) =>
                                       `flex items-center gap-2 ${
                                         isActive

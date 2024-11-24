@@ -1,8 +1,6 @@
 import axios from "axios";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 
 const JobPostList = () => {
   const [jobPosts, setJobPosts] = useState([]);
@@ -79,8 +77,6 @@ const JobPostList = () => {
 
   return (
     <div>
-      <Navbar2 />
-
       <div className="mx-auto mb-10 mt-10 max-w-4xl rounded-lg bg-gray-100 p-6 text-black  md:min-h-screen">
         <h1 className="mb-4 text-center text-3xl font-bold">
           Welcome to Careers at EDEN BIRDS
@@ -202,8 +198,6 @@ const JobPostList = () => {
           )}
         </AnimatePresence>
       </div>
-
-      <Footer />
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
+
 import bootstrapLogo from "./../assets/bootstrap.png";
 import cakephpLogo from "./../assets/cakephp.png";
 import chakraUiLogo from "./../assets/chakra_ui.png";
@@ -169,7 +168,6 @@ const Technology = () => {
 
   return (
     <div>
-      <Navbar2 />
       <div className="min-h-screen bg-gray-100 py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg bg-white p-8 shadow-lg">
@@ -281,7 +279,6 @@ const Technology = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

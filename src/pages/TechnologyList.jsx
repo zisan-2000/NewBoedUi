@@ -1,8 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 
 const TechnologyList = () => {
   const [technologies, setTechnologies] = useState([]);
@@ -20,7 +18,6 @@ const TechnologyList = () => {
 
   return (
     <div className="pt-24">
-      <Navbar2 />
       <div className="container mx-auto mb-10 mt-10  rounded-lg bg-gray-50 p-6 shadow-xl dark:bg-slate-800">
         <h1 className="mb-10 text-center text-4xl font-bold text-blue-700 dark:text-purple-500">
           Our Technology
@@ -58,7 +55,6 @@ const TechnologyList = () => {
         </div>
         <Outlet context={{ technologies }} />
       </div>
-      <Footer />
     </div>
   );
 };

@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react"; // Make sure useState and useEffect are imported
 import { useNavigate, useParams } from "react-router-dom";
 
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 import Corporate from "../pages/Corporate";
 import Ecommerce from "../pages/Ecommerce";
 import Financial from "../pages/Financial";
@@ -37,8 +35,6 @@ const ProductPage = () => {
 
   return (
     <div className="pt-24">
-      <Navbar2 />
-
       <div className="container mx-auto p-4">
         <h1 className="my-8 bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-center text-4xl font-extrabold text-transparent sm:text-5xl">
           Our Products
@@ -87,7 +83,6 @@ const ProductPage = () => {
         </div>
         <div className="mt-4">{renderContent()}</div>
       </div>
-      <Footer />
     </div>
   );
 };

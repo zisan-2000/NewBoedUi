@@ -1,7 +1,5 @@
 import axios from "axios";
 import React, { useState } from "react";
-import Footer from "../components/Footer/Footer";
-import Navbar2 from "../components/navbar/Navbar2";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +34,6 @@ const ContactForm = () => {
 
   return (
     <div className="pt-24">
-      <Navbar2 />
       <div className="flex min-h-screen flex-col justify-between bg-slate-100 dark:bg-slate-800">
         <div className="container mx-auto flex flex-col items-center justify-center space-y-8 p-8 md:flex-row md:gap-20 md:space-x-12 md:space-y-0">
           <div className="mb-8 w-full max-w-md  rounded-lg bg-slate-200 p-8 shadow-lg dark:bg-slate-700 md:mb-0">
@@ -155,7 +152,6 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     </div>
   );
