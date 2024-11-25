@@ -49,7 +49,7 @@ const Navbar2 = () => {
                   to="/"
                   className="flex items-center tracking-wide text-white transition duration-300 ease-in-out hover:text-primary"
                 >
-                  <span className="font-bold text-primary">Birds </span>
+                  <span className="font-bold text-primary whitespace-nowrap">Birds </span>
                   <span className="ml-1 inline-block bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
                   Of Eden
                   </span>
@@ -57,8 +57,8 @@ const Navbar2 = () => {
               </div>
             </div>
 
-            <div className="hidden items-center gap-4 md:flex">
-              <ul className="flex items-center gap-3">
+            <div className="hidden items-center md:flex">
+              <ul className="flex items-center">
                 <li className="group relative cursor-pointer">
                   <NavLink
                     to=""
@@ -534,14 +534,7 @@ const Navbar2 = () => {
                 </span>
               </NavLink>
 
-              {/* <NavLink
-                to="/career"
-                className={({ isActive }) =>
-                  `relative  flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-700 px-6 py-3 font-md uppercase text-white text-sm transition duration-300 hover:from-blue-700 hover:to-blue-900`
-                }
-              >
-                Log In
-              </NavLink> */}
+              
               <div className="flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 py-1.5 pl-2 pr-4 shadow-lg">
                 <div className="rounded-full bg-primary p-2 text-lg text-white transition duration-300 ease-in-out hover:scale-110 hover:bg-primary/90">
                   <FaPhoneAlt className="h-5 w-5" />
@@ -555,6 +548,15 @@ const Navbar2 = () => {
                   </p>
                 </div>
               </div>
+
+              <NavLink
+                to="/career"
+                className={({ isActive }) =>
+                  `relative  flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-700 px-6 py-3 font-md uppercase text-white text-sm transition duration-300 hover:from-blue-700 hover:to-blue-900`
+                }
+              >
+                Log In
+              </NavLink>
             </div>
             <div className="flex items-center gap-4 md:hidden">
               {theme === "dark" ? (

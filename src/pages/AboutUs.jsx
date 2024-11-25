@@ -14,7 +14,7 @@ const AboutUs = () => {
     <div>
       {/* <Navbar2 /> */}
 
-      <div className="pt-24">
+      <div className="pt-24 pb-10">
         <div className="relative z-[1] bg-blue-500/50 bg-[url('/pexels-felixmittermeier-1205301.jpg')] bg-cover bg-center bg-no-repeat py-8 text-center after:absolute after:inset-0 after:bg-gradient-to-t after:from-black after:to-blue-500/60">
           <h1
             className={`relative z-[1] justify-center rounded-lg p-4 text-center text-4xl font-bold`}

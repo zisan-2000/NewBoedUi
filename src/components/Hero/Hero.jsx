@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="after:absolute after:inset-0 after:h-full after:w-full after:bg-black/60"></div>
 
       {/* Content */}
-      <section className="container relative z-10 flex h-[calc(100vh+80px)] flex-col items-center justify-center">
+      <section className="container relative z-10 flex pb-32 pt-44 py-20 flex-col items-center justify-center">
         <div className="grid grid-cols-1 items-center gap-8 text-white md:grid-cols-2">
           <div
             data-aos="fade-right"
@@ -26,7 +26,7 @@ const Hero = () => {
             data-aos-once="true"
             className="flex flex-col items-center gap-4 text-center md:items-start md:text-left"
           >
-            <h1 className="mb-3 text-5xl transition-transform duration-500">
+            <h1 className="mb-3 text-2xl md:text-5xl transition-transform duration-500">
               <span className="scale-10 0 transform rounded font-bold text-primary transition-transform duration-500">
                 BIRDS OF EDEN
               </span>
@@ -39,7 +39,7 @@ const Hero = () => {
               with state-of-the-art software that enhances efficiency,
               productivity, and user experience.
             </p>
-            <div className="mt-4  space-x-4">
+            <div className="mt-4 md:space-x-4">
               <Link to="/get-started">
                 <button className="mb-2 rounded-md border-2 border-blue-500 bg-blue-500/50 px-8 py-3 text-2xl text-white shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-700 hover:bg-blue-700">
                   Get Started
@@ -55,7 +55,7 @@ const Hero = () => {
           <img
             src="/undraw_progressive_app_m-9-ms.svg"
             alt="No image"
-            className="w-full"
+            className="w-full hidden lg:block"
           />
         </div>
       </section>
