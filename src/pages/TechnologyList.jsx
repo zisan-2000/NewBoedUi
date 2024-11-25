@@ -25,7 +25,7 @@ const TechnologyList = () => {
         <p className="mb-10 text-center text-lg text-gray-700 dark:text-white">
           At
           <span className="ml-1 animate-bounce text-2xl text-green-700 dark:text-orange-500">
-            EDEN BIRDS
+            BIRDS OF EDEN
           </span>
           , we are at the forefront of technological innovation. Our software
           solutions are built using the latest and most reliable technologies to

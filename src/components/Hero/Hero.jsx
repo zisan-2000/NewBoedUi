@@ -28,12 +28,12 @@ const Hero = () => {
           >
             <h1 className="mb-3 text-5xl transition-transform duration-500">
               <span className="scale-10 0 transform rounded font-bold text-primary transition-transform duration-500">
-                EDEN BIRDS
+                BIRDS OF EDEN
               </span>
-              <span> Innovating the Future of Software Solutions</span>
+              <span> Innovating the Future of Erp Software Solutions And AI</span>
             </h1>
             <p className="text-xl font-light duration-500">
-              Eden birds is a cutting-edge software company dedicated to
+              Birds OF EDEN is a cutting-edge software company dedicated to
               transforming ideas into reality through innovative technology
               solutions. Our mission is to empower businesses and individuals
               with state-of-the-art software that enhances efficiency,

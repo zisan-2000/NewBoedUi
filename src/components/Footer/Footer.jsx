@@ -46,16 +46,16 @@ const Footer = () => {
               className="flex items-center justify-center transition duration-300 ease-in-out hover:text-primary"
             >
               <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-                EDEN
+                BIRDS 
               </span>
               <span className="ml-2 inline-block text-primary drop-shadow-lg">
-                BIRDS
+                OF EDEN
               </span>
             </a>
           </h1>
 
           <p className="mt-2 text-center">
-            EDEN BIRDS is a pioneering software company dedicated to
+            BIRDS OF EDEN is a pioneering software company dedicated to
             transforming innovative ideas into reality.
           </p>
         </div>

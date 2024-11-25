@@ -8,10 +8,10 @@ const Banner = () => {
         <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-3 md:gap-8">
           <div className="order-2 flex flex-col items-center gap-4 text-center text-white md:col-span-2 md:items-start md:text-left">
             <h1 className="text-4xl font-bold">
-              Market Your Brand with EDEN BIRDS
+              Market Your Brand with BIRDS OF EDEN
             </h1>
             <p className="text-lg">
-              EDEN BIRDS is dedicated to transforming your innovative ideas into
+              BIRDS OF EDEN is dedicated to transforming your innovative ideas into
               reality. Our cutting-edge technology solutions empower businesses
               to enhance efficiency, boost productivity, and create exceptional
               user experiences. Join us in revolutionizing the software industry

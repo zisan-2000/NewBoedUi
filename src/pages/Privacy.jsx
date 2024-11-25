@@ -16,7 +16,7 @@ const Privacy = () => {
             Privacy Policy
           </h1>
           <p className="mb-6 text-gray-600 dark:text-white">
-            At EDEN BIRDS, we take your privacy seriously. This Privacy Policy
+            At BIRDS OF EDEN, we take your privacy seriously. This Privacy Policy
             explains how we collect, use, and disclose information about you
             when you use our services. Please read this policy carefully to
             understand our practices regarding your information and how we will

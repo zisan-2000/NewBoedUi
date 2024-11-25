@@ -10,7 +10,7 @@ const WebDev = () => {
           </h2>
 
           <p className="mb-6 text-gray-700 dark:text-white">
-            EDEN BIRDS specializes in building dynamic and user-friendly
+            BIRDS OF EDEN specializes in building dynamic and user-friendly
             websites tailored to help you achieve your online goals and enhance
             your digital presence.
           </p>

@@ -7,7 +7,7 @@ const MobileApp = () => {
             Mobile App Solutions
           </h2>
           <p className="mb-6 text-gray-700 dark:text-white">
-            EDEN BIRDS offers comprehensive mobile app solutions to empower your
+            BIRDS OF EDEN offers comprehensive mobile app solutions to empower your
             business with responsive and feature-rich applications across
             platforms.
           </p>

@@ -21,14 +21,14 @@ const AboutUs = () => {
           >
             About{" "}
             <span className="ml-1 inline-block bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
-              Eden Birds
+              Birds OF EDEN
             </span>
           </h1>
         </div>
 
         <div className="container bg-gradient-to-t from-transparent to-black">
           <p className={`mb-8 text-lg ${animated ? "animate-fadeIn" : ""}`}>
-            <span className="font-semibold">EDEN BIRDS</span> is a dynamic
+            <span className="font-semibold">BIRDS OF EDEN</span> is a dynamic
             software company dedicated to creating innovative solutions that
             empower businesses to thrive in the digital age.
           </p>
@@ -41,7 +41,7 @@ const AboutUs = () => {
             Our Mission
           </h2>
           <p className={`mb-8 text-lg ${animated ? "animate-fadeIn" : ""}`}>
-            At <span className="font-semibold">EDEN BIRDS</span>, our mission is
+            At <span className="font-semibold">BIRDS OF EDEN</span>, our mission is
             to revolutionize the software industry by delivering cutting-edge
             products and services that exceed our clients' expectations.
           </p>

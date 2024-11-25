@@ -7,7 +7,7 @@ const IOSAppDev = () => {
             iOS App Development
           </h2>
           <p className="mb-6 text-gray-700 dark:text-white">
-            At EDEN BIRDS, we specialize in crafting seamless and intuitive iOS
+            At BIRDS OF EDEN, we specialize in crafting seamless and intuitive iOS
             applications to enhance your brand presence and engage your audience
             on the App Store.
           </p>

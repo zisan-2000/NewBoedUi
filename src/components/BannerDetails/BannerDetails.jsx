@@ -31,7 +31,7 @@ const BannerDetails = ({ reverse, img }) => {
                 We Build Apps That Get Trending On Appworld
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400">
-                EDEN BIRDS is a cutting-edge software company dedicated to
+                Birds OF EDEN is a cutting-edge software company dedicated to
                 transforming ideas into reality through innovative technology
                 solutions. Our mission is to empower businesses and individuals
                 with state-of-the-art software that enhances efficiency,
